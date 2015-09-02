@@ -27,7 +27,7 @@ file:
 A quick way to install would be the following set of commands (assuming bash):
 
 ```sh
-wget https://raw.github.com/trapd00r/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
+wget https://raw.github.com/sentientmachine/LS_COLORS/master/LS_COLORS -O $HOME/.dircolors
 echo 'eval $(dircolors -b $HOME/.dircolors)' >> $HOME/.bashrc
 . $HOME/.bashrc
 ```
